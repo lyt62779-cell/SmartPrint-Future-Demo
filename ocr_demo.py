@@ -46,7 +46,7 @@ PREVIEW_MAX_SIDE = 1800.0
 class OCRDemo:
     def __init__(self, root: Tk) -> None:
         self.root = root
-        self.root.title("PaddleOCR 文字识别 Demo")
+        self.root.title("智印未来——人工智能赋能印前质量检测系统")
         self.root.geometry("1100x720")
         self.root.minsize(900, 600)
 

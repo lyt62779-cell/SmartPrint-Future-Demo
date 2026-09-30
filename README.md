@@ -80,7 +80,9 @@ SmartPrint_Future_Submission_Demo/
 ├─ experiment_config.py         配置与运行环境记录
 ├─ gpu_runtime.py               Windows GPU DLL 路径配置
 ├─ model_cache/                 本地模型目录（官方 OCR 模型首次运行下载）
-├─ demo_data/                   脱敏演示数据目录（当前为空）
+├─ demo_data/
+│  ├─ original/.gitkeep         原稿样本占位目录
+│  └─ test/.gitkeep             加工稿样本占位目录
 ├─ output/                      默认输出目录
 ├─ requirements.txt             精简依赖
 └─ README.md                    本说明
@@ -105,4 +107,3 @@ OCR 使用 `PP-OCRv6_medium_det`、`PP-OCRv6_medium_rec`，并按需使用方向
 ## 版本来源
 
 本提交版由正式项目副本整理而来，未修改原项目目录、算法规则或实验数据。
-
