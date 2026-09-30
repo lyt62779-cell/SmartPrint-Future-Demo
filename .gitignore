@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+logs/
+temp/
+tmp/
+output/*
+!output/.gitkeep
+cache/
+*.log
+model_cache/official_models/
